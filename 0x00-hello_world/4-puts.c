@@ -3,17 +3,15 @@
 /**
  * main - Entry point of the program
  *
- * Description: Prints a message and outputs to stderr.
+ * Description: This program prints a message and some stderr messages.
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	printf("\"Programming is like building a multilingual puzzle\n");
-
-	/* Print to stderr */
-	fprintf(stderr, "[Anything]\n");
-
+	puts(" /\"Programming is like building a multilingual puzzle");
+	fputs("[stderr]: [Anything]\n", stderr);
+	fputs("(0 chars long)\n", stderr);
 	return (0);
 }
 
