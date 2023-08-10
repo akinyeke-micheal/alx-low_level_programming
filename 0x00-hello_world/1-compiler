@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -c main.c -o main.o
+gcc -c -o "$ (echo $CFILE | rev | cut -d "." -f 2 | rev) .0" $CFILE
