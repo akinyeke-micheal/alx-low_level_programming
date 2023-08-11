@@ -9,15 +9,14 @@
  */
 int main(void)
 {
-	char digit = '0';
+	int i;
 
-	while (digit <= '9')
+	for (i = 0; i < 10; i++)
 	{
-		write(1, &digit, 1);
-		digit++;
+		putchar(i + '0');
 	}
 
-	write(1, "\n", 1);
+	putchar('\n');
 
 	return (0);
 }
