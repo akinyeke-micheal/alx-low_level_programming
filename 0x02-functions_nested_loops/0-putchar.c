@@ -1,7 +1,8 @@
 #include "main.h"
 	/**
-	 *@main - prints the character  _putchar
-	 *@Return: 0 indicates success
+	 * main - print _putchar
+	 * is written by micheal
+	 * Return: 0
 	 */
 
 
@@ -18,3 +19,5 @@
 	_putchar('\n');
 	return (0);
 	}
+
+
