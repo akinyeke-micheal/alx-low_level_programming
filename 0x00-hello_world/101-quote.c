@@ -10,10 +10,9 @@
 int main(void)
 {
 	char *message = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
-
-	syscall(SYS_write, STDERR_FILENO, message, 47); /* 47 is the length of the message */
-	syscall(SYS_write, STDERR_FILENO, "\n", 1);     /* Print a newline character */
-
+	syscall(SYS_write, STDERR_FILENO, message, 59); /* 59 is the length of the message */
+	syscall(SYS_write, STDERR_FILENO, "\n", 1); /* Print a newline character */
 	return (1);
 }
+
 
